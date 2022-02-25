@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 450px;
+  display: flex;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover{
+  transition:all 0.2s ease;
+}
+
+.cover:hover{
+  filter: brightness(0.7)
+}
